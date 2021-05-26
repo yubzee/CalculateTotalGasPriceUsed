@@ -11,7 +11,7 @@ const { web3http, web3 } = CreateClient(Web3);
 const { getTransactionsByAccount }= BuildTransactionChecker(web3)
 
 
-const myaccount = ['0x5E166CAC16dff358bf7ffb16A34698fF9Fe98c21', '0x5E166CAC16dff358bf7ffb16A34698fF9Fe98c21', '0x5E166CAC16dff358bf7ffb16A34698fF9Fe98c21'];
+const myaccount = ['ADDRESS 1', 'ADDRESS 2', 'ADDRESS 3'];
 const noOfBlockstoAccess = 2;
 
 getTransactionsByAccount(myaccount,noOfBlockstoAccess)
