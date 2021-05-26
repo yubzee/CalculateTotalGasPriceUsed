@@ -1,0 +1,13 @@
+{
+  "name": "simple-api1",
+  "version": "0.0.0",
+  "description": "SimpleApi1",
+  "main": "index.js",
+  "author": {
+    "name": "Ayuba Muazu"
+  },
+  "dependencies": {
+    
+    "web3": "^1.3.6"
+  }
+}
